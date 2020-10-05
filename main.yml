@@ -5,4 +5,4 @@
 
   tasks:
     - import_tasks: vagrant.yml
-    - import_tasks: git.ym
+    - import_tasks: git.yml
