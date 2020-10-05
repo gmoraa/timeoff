@@ -1,0 +1,16 @@
+- name: "Create Directory"
+  file:
+    path: /home/vagrant/timeoff
+    state: directory
+    mode: '0750'
+
+- name: "Git Clone"
+  git:
+    repo: https://github.com/gmoraa/timeoff.git
+    dest: /home/vagrant/timeoff
+
+- name: "NPM Install"
+  shell: cd /home/vagrant/timeoff && npm install
+
+- name: "NPM start"
+  shell: cd /home/vagrant/timeoff && npm start
