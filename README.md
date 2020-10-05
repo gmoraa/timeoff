@@ -7,6 +7,15 @@
 ## Version 
 1.0.0
 
+## Requirements
+
+*Ansible      (2.9.7)
+*VirtualBox   (6.1.14)
+*Vagrant      (2.2.10)
+*macOS        (Catalina 10.15.6)
+
+This should also work on any Linux distribution but has not been tested.
+
 ## Usage
 ansible-playbook -i ./inventory main .yml
 
