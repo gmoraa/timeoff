@@ -1,0 +1,8 @@
+---
+- name: Start All Applications & Install Timeoff
+  hosts: vagrant
+  gather_facts: False
+
+  tasks:
+    - import_tasks: vagrant.yml
+    - import_tasks: git.ym
