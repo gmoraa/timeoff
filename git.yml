@@ -6,7 +6,7 @@
 
 - name: "Git Clone"
   git:
-    repo: https://github.com/gmoraa/timeoff.git
+    repo: https://github.com/gmoraa/timeoff-management-application.git
     dest: /home/vagrant/timeoff
 
 - name: "NPM Install"
