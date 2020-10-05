@@ -7,3 +7,7 @@
 
 ## Software Architecture
 
+
+## Usage
+
+ansible-playbook -i ./inventory main .yml
