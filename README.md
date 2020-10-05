@@ -15,6 +15,11 @@ Given the requirements listed above I created all the components as code, that m
 
 Behind this logic there is a reason, connecting a local environment to a cloud environment could generate too much chaos. Think about connecting Github in the cloud to a local Jenkins for Continuos Integration or a Jenkins in the Cloud to a local virtual machine for the Continuous Deployment, it's for that reason this architecture involves all 4 applications locally.
 
+Ansible has two steps in this process:
+
+  1) Call Vagrant to generate the 4 applications, 3 of these are Docker containers and the last one is a Ubuntu machine.
+  2) Configure the Ubuntu machine with the application, git clone, npm install and npm start.
+
 ![diagram](https://github.com/gmoraa/timeoff/blob/main/diagram.png)
 
 ## To improve
