@@ -5,10 +5,10 @@
 * Artifact management to be done through an artifact repository management solution.
 * Required infrastructure running on virtualization solution or preference, provisioned using some sort of infrastructure as code through configuration management. 
 
-## Software Architecture
-
-![diagram](https://github.com/gmoraa/timeoff/blob/main/diagram.png)
-
 ## Usage
 
 ansible-playbook -i ./inventory main .yml
+
+## Software Architecture
+
+![diagram](https://github.com/gmoraa/timeoff/blob/main/diagram.png)
