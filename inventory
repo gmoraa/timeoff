@@ -1,0 +1,8 @@
+[vagrant]
+localhost
+
+[vagrant:vars]
+ansible_port = 2222
+ansisble_user = vagrant
+ansible_password = vagrant
+ansible_connection = local
