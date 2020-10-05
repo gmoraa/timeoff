@@ -7,6 +7,7 @@
 
 ## Software Architecture
 
+![diagram](https://github.com/gmoraa/timeoff/blob/main/diagram.png)
 
 ## Usage
 
