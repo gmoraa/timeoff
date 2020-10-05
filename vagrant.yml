@@ -1,0 +1,8 @@
+- name: "Init All Services"
+  shell: cd ./{{ item }} && vagrant up
+  delegate_to: localhost
+  loop:
+    - jenkins
+    - nexus
+    - gitlab
+    - app
